@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 11:14:29 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 16:44:56 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/28 10:18:32 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,3 @@ char	*ft_strdup(const char *s)
 	dest[i] = '\0';
 	return (dest);
 }
-// int	main(void)
-// {
-// 	char	d[] = "AMOR e belo";
-// 	printf("%s", ft_strdup(d));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 15:13:54 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 16:04:30 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/05/01 17:19:26 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	int					i;
+	size_t				i;
 	const unsigned char	*psrc;
 	unsigned char		*pdest;
 

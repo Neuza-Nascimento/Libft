@@ -6,14 +6,13 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 12:09:41 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/29 15:36:51 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/05/01 17:14:33 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -53,7 +52,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 
 void				ft_putnbr_fd(int n, int fd);
-void				*ft_bzero(void *s, size_t n);
+void				ft_bzero(void *s, size_t n);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putendl_fd(char *s, int fd);

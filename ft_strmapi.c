@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 09:58:02 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/22 10:13:21 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/29 11:01:15 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,14 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[j] = 0;
 	return (str);
 }
-// char ft_teste(unsigned int j, char c)
-// {
-//     (void)j;
-//     c = '*';
-//     return(c);
-// }
-// int main()
-// {
-//     char a[] = "maria";
-//     printf("%s", ft_strmapi(a, ft_teste));
-// }

@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 19:24:50 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 15:07:55 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/28 10:18:59 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-// int	main(void)
-// {
-// 	printf("%d", ft_strncmp("abcdef", "abc\375xx", 5));
-// }

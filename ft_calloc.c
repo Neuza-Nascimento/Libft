@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 10:49:13 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 13:13:18 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/29 10:50:34 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,24 +15,14 @@
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;
-	int		total;
+	size_t	total;
 
-	if (!size || !nmemb)
-		return (malloc(0));
-	total = nmemb * size;
-	if (total / nmemb != size)
+	if (nmemb != 0 && ((size_t)-1) / nmemb < size)
 		return (NULL);
+	total = nmemb * size;
 	ptr = (void *)malloc(total);
 	if (!ptr)
 		return (ptr);
 	ft_bzero(ptr, total);
 	return (ptr);
 }
-// int	main(void)
-// {
-// 	void	*d;
-
-//     d = ft_calloc(10, 1);
-// 	printf("%s", (char *)d);
-// 	return (0);
-// }

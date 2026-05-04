@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 11:06:26 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/22 11:13:09 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/30 18:07:29 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 void	ft_putnbr_fd(int n, int fd)
 {
 	long	nb;
-	char	c;
 
 	nb = n;
 	if (nb < 0)

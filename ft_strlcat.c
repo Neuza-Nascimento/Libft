@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 13:12:45 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 11:36:55 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/29 11:01:21 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,13 +31,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[lendest + i] = '\0';
 	return (lendest + lensrc);
 }
-
-// int	main(void)
-// {
-// 	char	d[] = "Amor e belo";
-// 	char	s[10] = "Vida";
-
-// 	ft_strlcat(s, d, 10);
-// 	printf("%s", s);
-// 	return (0);
-// }

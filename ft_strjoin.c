@@ -6,7 +6,7 @@
 /*   By: nedo-nas <nedo-nas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:10:02 by nedo-nas          #+#    #+#             */
-/*   Updated: 2026/04/24 14:02:53 by nedo-nas         ###   ########.fr       */
+/*   Updated: 2026/04/28 15:38:35 by nedo-nas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		str[len1] = s1[len1];
 	while (s2[i])
 		str[len1++] = s2[i++];
-	str[len1] = 0;
+	str[len1] = '\0';
 	return (str);
 }
-// int	main(void)
-// {
-// 	char d[] = "AMOR e belo";
-//     char a[] = "dA MINHA VIDA ";
-
-// 	printf("%s", ft_strjoin(d, a));
-// 	return (0);
-// }
